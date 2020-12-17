@@ -18,7 +18,7 @@ class Form extends React.Component {
     })
   }
 
-  render() {
+  render() { 
     return (
       <form>
         <input type="text" name="firstName" onChange={event => this.handleFirstNameChange(event)} value={this.state.firstName} />
