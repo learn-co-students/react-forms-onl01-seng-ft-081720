@@ -8,13 +8,7 @@ class ParentCompoenent extends React.Component {
         lastName: "",
     }
 
-    handleFirstNameChange = event => {
-        this.setState({
-            firstName: event.target.value
-        })
-    }
-
-    handleLastNameChange = event => {
+    handleChange = event => {
         this.setState({
             [event.target.name]: event.target.value
         })
